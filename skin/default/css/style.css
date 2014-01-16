@@ -1,0 +1,25 @@
+body {
+  padding-bottom: 20px;
+}
+
+#ui-userid-txt:hover{
+    background-color: #faebcc;
+}
+
+.main-box{
+    background-color: #eee;
+    //height: 400px;
+}
+
+.notification-banner{
+    padding:5px;
+    margin-bottom: 2px;
+}
+
+.left-sidebar{
+    background-color: #f7f5fa;
+}
+
+footer > .ui-page-footer{
+    text-align: center;
+}

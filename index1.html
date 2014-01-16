@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title>Cowboy Content Manage</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="skin/default/css/style.css">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Cowboy Content Manage</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#">个人面板</a>
+            </li>
+            <li class="active"><a href="#contact">应用管理</a></li>
+            <li><a href="#about">账户管理</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                个人设置 <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">普通用户菜单</li>
+                <li><a href="#">修改密码</a></li>
+                <li><a href="#">修改联系方式</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">系统管理员菜单</li>
+                <li><a href="#">权限管理</a></li>                
+                <li><a href="#">用户管理</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
+
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="" id="ui-userid-txt">我是大菠萝</a></li>
+            <li>
+              <a href="#">登出</a>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <!-- navbar -->
+
+    <!-- notification banner -->
+    <div class="notification-banner">
+      <div class="container">
+        <div class="alert alert-warning alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+          &times;
+        </button>
+          您有三个文件上传未成功，<a href="#">点击查看</a>
+        </div>    
+      </div>
+    </div>    
+    <!-- notification banner -->
+
+    <!-- main container -->
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-md-2">
+          <!-- left menu -->
+          <div class="left-sidebar">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="active"><a href="#" >应用列表</a></li>
+              <li><a href="#">文件列表</a></li>
+            </ul>
+          </div>
+          <!-- left menu -->
+        </div>
+
+        <div class="col-md-10">
+          <div class="main-box">
+          </div>
+        </div>
+    </div> 
+    <!-- main container -->
+
+    <!-- footer -->
+    <hr>
+    <footer>
+      <div class="ui-page-footer">
+        <p>&copy; Cowboy Content Manage 2013</p>  
+      </div>
+      
+    </footer>
+    <!-- footer -->
+
+
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
